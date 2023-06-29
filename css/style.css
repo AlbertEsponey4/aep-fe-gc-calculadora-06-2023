@@ -1,0 +1,41 @@
+input{
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+#result p{
+    font-size: 30px;
+    height: 45px;
+    color: rgba(0, 0, 0, 0.507);
+}
+
+.calculadora{
+    width: 380px;
+    height: 75vh;
+}
+
+.keys{
+    background-color: rgb(153, 228, 203);
+}
+
+.keys:hover{
+    background-color: rgb(174, 236, 216);
+    cursor: pointer;
+}
+
+.operator-keys{
+    background-color: rgb(1, 170, 114);
+}
+
+.operator-keys:hover{
+    background-color: rgb(14, 189, 130);
+}
